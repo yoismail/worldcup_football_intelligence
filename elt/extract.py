@@ -11,9 +11,6 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-# Setup logging
-setup_logging()
-
 # CONFIGURATION
 COMPETITION_CODE = os.getenv("COMPETITION_CODE", "WC")
 SEASON = int(os.getenv("SEASON", "2026"))
@@ -320,6 +317,7 @@ def count_all_files():
 
 @timed
 def main():
+    setup_logging()
     section("Starting Full Extraction Process")
     ensure_directories()
     asyncio.run(run_all_extractions())
