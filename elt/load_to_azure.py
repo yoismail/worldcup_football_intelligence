@@ -78,6 +78,7 @@ def load_bronze_data_to_azure() -> None:
 
         for root, dirs, files in os.walk(BRONZE_PATH):
             # root = full path of current folder
+            # dirs = list of subfolders in that folder
             # files = list of files in that folder
             for file_name in files:
                 full_file_path = os.path.join(root, file_name)
