@@ -106,8 +106,7 @@ worldcup-football-elt/
    - Write to `gs://.../gold/`
 
 ### Phase 3 : Load and Availability
-10. Load ALL layers to BigQuery:
-    - Bronze: Raw JSON → `bronze_teams/standings/matches`
+10. Load Silver and Gold layers to BigQuery:
     - Silver: Clean Parquet → `silver_teams/standings/matches`
     - Gold: Curated Parquet → `gold_teams/standings/matches`
 11. All tables are external tables — no duplicate storage, always reflects latest files
