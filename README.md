@@ -33,7 +33,7 @@ To build a reliable, maintainable, and scalable data pipeline that:
                                           ▼                                ▼
                           ┌─────────────────────────────────────────────────────────────┐
                           │                     Google BigQuery                         │
-                          │  • Bronze Tables (Raw)  • Silver Tables (Clean)  • Gold Tables │
+                          │       • Silver Tables (Clean)  • Gold Tables │
                           │  • External Tables pointing directly to GCS files            │
                           └─────────────────────────────────────────────────────────────┘
 ```
