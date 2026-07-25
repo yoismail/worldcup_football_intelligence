@@ -6,7 +6,7 @@ This guide walks through every decision, resource, and code step from initial se
 ---
 
 ## OVERALL APPROACH
-We built a Cloud-Native Serverless ELT Pipeline following Medallion Architecture, designed for reliability, maintainability, and zero infrastructure management.
+I built a Cloud-Native Serverless ELT Pipeline following Medallion Architecture, designed for reliability, maintainability, and zero infrastructure management.
 
 ---
 
