@@ -291,8 +291,8 @@ This pipeline demonstrates production-grade ELT patterns against a real public A
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yoismail/worldcup_football_elt.git
-cd worldcup_football_elt
+git clone https://github.com/yoismail/worldcup_football_intelligence.git
+cd worldcup_football_intelligence
 ```
 
 ### 2. Set up GCP resources
@@ -392,6 +392,9 @@ SELECT group_name, position, team_name, points, running_total_points, points_per
 FROM `your-project-id.worldcup_dataset.gold_standings`
 ORDER BY group_name, position;
 ```
+
+---
+
 ---
 
 ## 🎓 Honest Limits and Next Steps
