@@ -31,8 +31,9 @@ I built a Cloud-Native Serverless ELT Pipeline following Medallion Architecture,
 - **Enabled Required APIs** :
   ```
   Cloud Composer API, Dataproc API, Cloud Storage API, BigQuery API,
-  Cloud IAM API, Cloud Resource Manager API, Cloud Logging API
+  Cloud IAM API, Cloud Resource Manager API, Cloud Logging API, Cloud Build API, Kubernetes Engine API
   ```
+  
 - **Created Service Account** : `cloud-composer@worldcup-football-project.iam.gserviceaccount.com`
   - Assigned Roles : `Storage Admin`, `BigQuery Data Editor`, `Dataproc Editor`, `Composer Worker`
 - **Created Resources** :
